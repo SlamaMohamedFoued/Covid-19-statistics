@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: 25px 0;
+}
+/* (min-width: 200px) and */
+@media screen and (max-width: 640px) {
+  .container {
+    width: 85%;
+  }
+}

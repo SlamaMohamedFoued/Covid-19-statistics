@@ -1,0 +1,30 @@
+.stat {
+  min-width: 220px !important;
+  margin: 20px 20px 0px !important;
+  padding: 10px !important;
+  border-radius: 6px;
+}
+.infected {
+  color: orange !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+.recovered {
+  font-size: 20px !important;
+  color: green !important;
+  font-weight: 600 !important;
+}
+.deaths {
+  font-size: 20px !important;
+  color: red !important;
+  font-weight: 600 !important;
+}
+.infectedStat {
+  border-bottom: 6px solid orange;
+}
+.recoveredStat {
+  border-bottom: 6px solid green;
+}
+.deathsStat {
+  border-bottom: 6px solid red;
+}
